@@ -9,5 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *_screen;
+    
+    int _method;
+    int _selectNumber;
+    float _runningTotal;
+}
+
+-(IBAction)numberPress:(id)sender;
+
+-(IBAction)functionPress:(id)sender;
 
 @end
